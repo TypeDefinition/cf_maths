@@ -4,6 +4,9 @@ import math
 
 import maths_util
 
+# !!!!!!!!!!!!!!!!SUPER IMPORTANT!!!!!!!!!!!!!!!!
+# Column-major Matrix
+# NOT ROW-MAJOR! OPPOSITE OF NUMPY!
 class Mtx:
     @classmethod
     def identity(cls, cols : int) -> Mtx:
